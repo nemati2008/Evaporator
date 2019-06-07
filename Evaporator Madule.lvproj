@@ -13,9 +13,18 @@
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="Data Acquisition module.vi" Type="VI" URL="../Subvi/Data Acquisition module.vi"/>
 			<Item Name="DHA Desnsity of Humid Air(kg to m3).vi" Type="VI" URL="../Subvi/DHA Desnsity of Humid Air(kg to m3).vi"/>
 			<Item Name="DPW Density of Pure Water (Kg to m3).vi" Type="VI" URL="../Subvi/DPW Density of Pure Water (Kg to m3).vi"/>
 			<Item Name="DVFS.vi" Type="VI" URL="../Subvi/DVFS.vi"/>
@@ -40,16 +49,21 @@
 			<Item Name="Salinity Relations.vi" Type="VI" URL="../Subvi/Salinity Relations.vi"/>
 			<Item Name="SEDA Specific Entahalpy of Dry Air (KJ to Kg).vi" Type="VI" URL="../Subvi/SEDA Specific Entahalpy of Dry Air (KJ to Kg).vi"/>
 			<Item Name="SEPW Specific Enthalpy of Pure Water (KJ to Kg).vi" Type="VI" URL="../Subvi/SEPW Specific Enthalpy of Pure Water (KJ to Kg).vi"/>
+			<Item Name="Serial.vi" Type="VI" URL="../Subvi/Serial.vi"/>
 			<Item Name="SESW Specific Enthalpy of Saline Water (J to Kg).vi" Type="VI" URL="../Subvi/SESW Specific Enthalpy of Saline Water (J to Kg).vi"/>
 			<Item Name="SEWV Specific Enthalpy of Water Vapor Revised (KJ to Kg).vi" Type="VI" URL="../Subvi/SEWV Specific Enthalpy of Water Vapor Revised (KJ to Kg).vi"/>
 			<Item Name="SHCDA Specific Heat Capacity of Dry Air (KJ to Kg K).vi" Type="VI" URL="../Subvi/SHCDA Specific Heat Capacity of Dry Air (KJ to Kg K).vi"/>
 			<Item Name="SHCHA Specific Heat Capacity of Humid Air (KJ to Kg K).vi" Type="VI" URL="../Subvi/SHCHA Specific Heat Capacity of Humid Air (KJ to Kg K).vi"/>
 			<Item Name="SHCHA Specific Heat Ratio of Humid Air.vi" Type="VI" URL="../Subvi/SHCHA Specific Heat Ratio of Humid Air.vi"/>
 			<Item Name="SHCWV Specific Heat Capacity of Water Vapor (KJ to Kg K).vi" Type="VI" URL="../Subvi/SHCWV Specific Heat Capacity of Water Vapor (KJ to Kg K).vi"/>
+			<Item Name="StoreInFileNumber.vi" Type="VI" URL="../Subvi/StoreInFileNumber.vi"/>
+			<Item Name="StoreInFileString.vi" Type="VI" URL="../Subvi/StoreInFileString.vi"/>
 			<Item Name="SVP Saturated Vapor pressure (Pa).vi" Type="VI" URL="../Subvi/SVP Saturated Vapor pressure (Pa).vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Total Transfered Energy from Exposed Saline Water.vi" Type="VI" URL="../Subvi/Total Transfered Energy from Exposed Saline Water.vi"/>
+			<Item Name="Transfered Enthalphy Evaporator Pure Water.vi" Type="VI" URL="../Subvi/Transfered Enthalphy Evaporator Pure Water.vi"/>
 			<Item Name="VPW Viscosity of Pure Water (Pa s).vi" Type="VI" URL="../Subvi/VPW Viscosity of Pure Water (Pa s).vi"/>
 			<Item Name="VWV Viscosity of Water Vapor (Pa s).vi" Type="VI" URL="../Subvi/VWV Viscosity of Water Vapor (Pa s).vi"/>
 		</Item>
