@@ -1,1 +1,0 @@
-add serialPort vi to program and check 1398/03/14

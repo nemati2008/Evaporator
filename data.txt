@@ -1,1 +1,0 @@
-Temp Evaporat Water IN#Temp Evaporat Water OUT#Temp Evaporat Air IN  #Temp Evaporat Air OUT#Humidity Evaporat Air IN#Humidity Evaporat Air OUT#  LMTD       #MFRHA Evaporator Air IN#MFRHA Evaporat Air OUT#Added Vapor Evaporat Air OUT#Transfred Enrgy Evaporat Air# Flow Evaporat Water ###
