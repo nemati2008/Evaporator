@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Evaporator Integrated Water Calculation Module.vi" Type="VI" URL="../Subvi/Evaporator Integrated Water Calculation Module.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -46,25 +47,20 @@
 			<Item Name="PDWV Partial density of Water Vapor (kg to m3).vi" Type="VI" URL="../Subvi/PDWV Partial density of Water Vapor (kg to m3).vi"/>
 			<Item Name="PPDA Partial Pressure of Dry Air in Humid Air(Pa).vi" Type="VI" URL="../Subvi/PPDA Partial Pressure of Dry Air in Humid Air(Pa).vi"/>
 			<Item Name="PPWV Partial Pressure of Water Vapor (Pa).vi" Type="VI" URL="../Subvi/PPWV Partial Pressure of Water Vapor (Pa).vi"/>
-			<Item Name="R_HA Gas Constant of Humid Air (KJ to Kg K).vi" Type="VI" URL="../Subvi/R_HA Gas Constant of Humid Air (KJ to Kg K).vi"/>
-			<Item Name="Salinity Relations.vi" Type="VI" URL="../Subvi/Salinity Relations.vi"/>
-			<Item Name="SEDA Specific Entahalpy of Dry Air (KJ to Kg).vi" Type="VI" URL="../Subvi/SEDA Specific Entahalpy of Dry Air (KJ to Kg).vi"/>
-			<Item Name="SEPW Specific Enthalpy of Pure Water (KJ to Kg).vi" Type="VI" URL="../Subvi/SEPW Specific Enthalpy of Pure Water (KJ to Kg).vi"/>
+			<Item Name="R_HA Gas Constant of Humid Air (J to Kg K).vi" Type="VI" URL="../Subvi/R_HA Gas Constant of Humid Air (J to Kg K).vi"/>
+			<Item Name="SEDA Specific Entahalpy of Dry Air (J to Kg).vi" Type="VI" URL="../Subvi/SEDA Specific Entahalpy of Dry Air (J to Kg).vi"/>
 			<Item Name="Serial.vi" Type="VI" URL="../Subvi/Serial.vi"/>
-			<Item Name="SESW Specific Enthalpy of Saline Water (J to Kg).vi" Type="VI" URL="../Subvi/SESW Specific Enthalpy of Saline Water (J to Kg).vi"/>
-			<Item Name="SEWV Specific Enthalpy of Water Vapor Revised (KJ to Kg).vi" Type="VI" URL="../Subvi/SEWV Specific Enthalpy of Water Vapor Revised (KJ to Kg).vi"/>
-			<Item Name="SHCDA Specific Heat Capacity of Dry Air (KJ to Kg K).vi" Type="VI" URL="../Subvi/SHCDA Specific Heat Capacity of Dry Air (KJ to Kg K).vi"/>
-			<Item Name="SHCHA Specific Heat Capacity of Humid Air (KJ to Kg K).vi" Type="VI" URL="../Subvi/SHCHA Specific Heat Capacity of Humid Air (KJ to Kg K).vi"/>
-			<Item Name="SHCHA Specific Heat Ratio of Humid Air.vi" Type="VI" URL="../Subvi/SHCHA Specific Heat Ratio of Humid Air.vi"/>
-			<Item Name="SHCWV Specific Heat Capacity of Water Vapor (KJ to Kg K).vi" Type="VI" URL="../Subvi/SHCWV Specific Heat Capacity of Water Vapor (KJ to Kg K).vi"/>
+			<Item Name="SEWV Specific Enthalpy of Water Vapor Revised (J to Kg).vi" Type="VI" URL="../Subvi/SEWV Specific Enthalpy of Water Vapor Revised (J to Kg).vi"/>
+			<Item Name="SHCDA Specific Heat Capacity of Dry Air (J to Kg K).vi" Type="VI" URL="../Subvi/SHCDA Specific Heat Capacity of Dry Air (J to Kg K).vi"/>
+			<Item Name="SHCHA Specific Heat Capacity of Humid Air (J to Kg K).vi" Type="VI" URL="../Subvi/SHCHA Specific Heat Capacity of Humid Air (J to Kg K).vi"/>
+			<Item Name="SHCWV Specific Heat Capacity of Water Vapor (J to Kg K).vi" Type="VI" URL="../Subvi/SHCWV Specific Heat Capacity of Water Vapor (J to Kg K).vi"/>
+			<Item Name="SHRHA Specific Heat Ratio of Humid Air.vi" Type="VI" URL="../Subvi/SHRHA Specific Heat Ratio of Humid Air.vi"/>
 			<Item Name="StoreInFileNumber.vi" Type="VI" URL="../Subvi/StoreInFileNumber.vi"/>
 			<Item Name="StoreInFileString.vi" Type="VI" URL="../Subvi/StoreInFileString.vi"/>
 			<Item Name="SVP Saturated Vapor pressure (Pa).vi" Type="VI" URL="../Subvi/SVP Saturated Vapor pressure (Pa).vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Total Transfered Energy from Exposed Saline Water.vi" Type="VI" URL="../Subvi/Total Transfered Energy from Exposed Saline Water.vi"/>
-			<Item Name="Transfered Enthalphy Evaporator Pure Water.vi" Type="VI" URL="../Subvi/Transfered Enthalphy Evaporator Pure Water.vi"/>
 			<Item Name="VPW Viscosity of Pure Water (Pa s).vi" Type="VI" URL="../Subvi/VPW Viscosity of Pure Water (Pa s).vi"/>
 			<Item Name="VWV Viscosity of Water Vapor (Pa s).vi" Type="VI" URL="../Subvi/VWV Viscosity of Water Vapor (Pa s).vi"/>
 		</Item>
